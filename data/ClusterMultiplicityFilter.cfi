@@ -1,0 +1,7 @@
+module tifClusterFilter = ClusterMultiplicityFilter
+{
+
+  untracked string ClusterCollectionLabel = "siStripClusters"
+  untracked uint32 MaxNumberOfClusters    = 300
+
+}
