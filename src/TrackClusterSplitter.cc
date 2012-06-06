@@ -596,7 +596,7 @@ void TrackClusterSplitter::splitCluster<SiStripCluster> (const SiStripClusterWit
       
       std::vector<SimHitIdpr> associatedIdpr;
       
-      hitAssociator->associateSimpleRecHitCluster(clust, associatedIdpr);
+      hitAssociator->associateSimpleRecHitCluster(clust, detId, associatedIdpr);
 
       size_t splittableClusterSize = 0;
       splittableClusterSize = associatedIdpr.size();
